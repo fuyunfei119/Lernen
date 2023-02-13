@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 593 285">
+<style>text{font-family:Arial;font-size:14px;}.t18{font-size:18px;}</style>
+<circle cx="530" cy="143" r="60" fill="#B3B3B3" stroke="#000" stroke-width="1"/>
+<circle cx="143" cy="143" r="141" fill="#E6E6E6" stroke="#000"/>
+<circle cx="143" cy="143" r="101" fill="#CCC" stroke="#000"/>
+<circle cx="143" cy="143" r="60" fill="#B3B3B3" stroke="#000" stroke-width="1"/>
+<path fill="none" stroke="#000" d="M170 130h150"/>
+<path fill="#181818" d="M317.3 133.8l14.3-3.8-14.3-3.9z"/>
+<path fill="none" stroke="#000" d="M549.7 130H450"/>
+<path fill="#181818" d="M454.2 126.1l-14.3 3.9 14.3 3.8z"/>
+<path fill="#FFF" stroke="#000" d="M488 143h86v30h-86zM342 113h88v34h-88zM101 143h86v30h-86zM115 49h56v30h-56zM101 10h84v30h-84z"/>
+<text transform="translate(506 162)">Angebot</text>
+<text class="t18" transform="translate(355 137)">MARKT</text>
+<text transform="translate(114 162)">Nachfrage</text>
+<text transform="translate(122 68)">Bedarf</text>
+<text transform="translate(108 30)">Bedürfnisse</text>
+</svg>
