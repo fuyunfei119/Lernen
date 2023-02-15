@@ -42,8 +42,42 @@
 - ## Netzplan
 - ## Kritscher Pfad
 - ## Wasserfallmodell
+  - ### Dokumentgetrieben (Wasserfall auch Dokumentgetrieben genannt.)
+    Alle Phasen von Wasserfallmodell müssen Dokumentiert werden.
+    In jeder Phase ist jeder abgeschlossene Dokumentation ein Meilestein.
+  - ### Top-Down Method
+    Ist die Vorgehensweise von Wasserfallmodell. Geht von Oben nach Unter.   
+    Anforderung => Entwurf => Implemention => Test => Abgabe
+  - ### Vorteile
+    - einfach und strukturiert
+    - Jeder Phasen dokumentiert
+    - wenige Management Aufwand
+  - ### Nachteile
+    - Wenige Flexbität
+    - Kein Rücksprungmöglichkeit
+    - Kunden wenig beteiligt 
 - ## Agile Modelle
+  - ### Agile Methoden
+    ist die Vorgehensweise, die agile Prinzip umsetzt. z.B: Scrum, Kanban. Dies helft die Softwareentwicklung schnell auf die Änderungen zu reagieren.
+  - ### Agile Prozess
+    Ist der gesamte Prozess von Softwareentwicklung, die auf agile basiert. Damit das Entwicklungsteam schnell auf die Änderung reagieren kann.
 - ## SCRUM
+  - ### Three Rolle
+    - Product Owner => Features Design und schnittestell zwischen Kunden und Master und Team
+    - Scrum Master => entwicklungsteam verwalten. Unabhängig von Entwicklungsteam
+    - Scrum Team => entwicklen und testen und besteht aus 3 bis 9 Personen. aus Entwickler, Tester und Architekten
+    - Stakeholder => kann jeder Zeit prozess mitmachen
+  - ### Process und Workflow
+    - User Stories => by product owner
+    - Product Backlog => by product owner und Scrum Master
+    - Sprint Backlog => by Scrum Master und Team
+    - Sprint und Daliy Scrum (15 min meeting) => by Scrum Master und Team
+    - Sprint review by Scrum Master und product Owner
+    - Finish work 
+  - ### Process of Sprint
+    - Planning (Design) => Build => Test => Review
+    - Ein Sprint darf nicht unterbrechen.
+    - Dauern 1 bis 4 Wochen
 # Qualitätsmanagement
 - ## Qualitäts-Aspekten
 - ## Kano-Modell
