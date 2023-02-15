@@ -1,8 +1,43 @@
 # Projekmanagement
+- ## Definition
+  - Projekt ist einmaliges Vorhaben mit klarem Ziel und einem definierten Anfang und Ende Termin. Also ist Zeitlich befristet. 
+- ## Kenngrößen des Projekts 
+  -  Kenngrößen ist dafür, den Fortschrift, den Erfolg und Wirksamkeit eines Projekts zu messen und bewerten.
+     - Zeit (每个步骤进度所需的事件)
+     - Kosten (所有的人工，材料和设备成本)
+     - Qualität (是否符合标准)
+     - Umfang (范围，项目需要完成的任务)
+     - Risiko (潜在的危险)
+     - Fortschritt (进度)
 - ## Magischen Dreieck
+  ![alt text](Projekt1.png)
 - ## SMART
+  - Damit Manager Fokus auf wesentliche Sache legen kann und Projekt Effektiver ausführen kann.
+
+  - S ===> 	spezifisch (Ziel sollte konkrete und spezifisch wie möglich formulieren)
+  - M	===>	messbar (Ziel sollte so definieren, dass Fortschritt nachfolgen kann)
+  - A	===>	attraktiv (Ziel sollte für allem reizvoll)
+  - R	===>	realistisch (Ziel sollte umsetzbar)
+  - T	===>	terminiert (Ziel sollte zeitlich geplant werden)
 - ## Stakeholder
+  -	Projektleiter
+  -	Projektmitarbeiter
+  -	Kunden
+  -	Benutzer
+  -	Auftraggeber
+  -	Sponsoren (赞助商)
 - ## Projektphasen
+  -	Projektauftrag / Definition
+  -	Projektplanung
+  -	Projektdurchführung
+  -	Überwachung und Testen
+  -	Projektabschluss
+- ## Aufgaben von Projektmanagement
+  -	Planung
+  -	Organisation
+  -	Personaleinsatz
+  -	Führung
+  -	Kontrolle
 - ## Gantt-Diagramm
 - ## Netzplan
 - ## Kritscher Pfad
@@ -53,6 +88,18 @@
 - ## Datenübertragungsrate
 - ## HD und SSD
 - ## Dezimalzahl und hexadezimalzahl
+  - ### Dezimal in Dualzahl => Dezimal Zahl immer durch 2
+  - ### Dualzahl in Dezimalzahl
+    1   1   1   1   1   1   1   1
+    128 64  32  16  8   4   2   1
+  - ### Dualzahl in Hexadezimalzahl =>
+    1 1 1 1   1 0 1 0   1 1 1 1
+    15 => F   10 => A   15
+    
+    10 => A
+    11 => B
+    .......
+    15 => F
 - ## Stromversorung
   - ### Formel von Spannung Stromsträk und Wiederstand
   - ![alt text](IT-System1.png)
