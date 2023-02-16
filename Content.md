@@ -79,29 +79,137 @@
     - Ein Sprint darf nicht unterbrechen.
     - Dauern 1 bis 4 Wochen
 # Qualitätsmanagement
-- ## Qualitäts-Aspekten
+- ## Struktur
+  - ### Philosophie
+    TQM und EFQM
+  - ### Qualitätsmanagement
+    Qualitätspolitik
+    Qualitätsprüfung
+    Qualitätslenkung
+    Qualitätssicherung
+    Qualitätsplanung
+  - ### Qualitätsaspekten
+    Norm => DIN EN ISO 9000 ff. => DIN EN ISO 9001 und 9004
 - ## Kano-Modell
+  ![alt text](QM1.png)
 - ## DIN EN ISO IEC
-- ## Grundsätze
-- ## 9000 9001 9004
-- ## Zyklus
-- ## Qualitätsmanagementsysteme
+  - ### DIN
+    Deutsches Institut für Normung
+  - ### EN 
+    Europäisches Normungsinstitut
+  - ### ISO
+    International Organisation for Standardization  
+  - ### IEC
+    International Electrotechnical Commission
+  
+  Normen muss nicht durchgeführt werden. Es gibt kein Strafgeld.
+- ## 7 Grundsätze
+  - ### Kundenorientierung (以顾客为关注焦点)
+  - ### Verantwortlichkeit der Führung (领导作用)
+  - ### Einbeziehung der Mitarbeiter (全员参与)
+  - ### Prozessorientierter Ansatz (过程导向的方法)
+  - ### Systemorientierter Ansatz 
+  - ### Kontinuierliche Verbesserung (持续改进)
+  - ### Sachbezogener Entscheidungsfindungsansatz (遵守决策)
+  - ### Lieferantenbeziehungen zum gegenseitigen Nutzen (互利的供应商关系)
+- ## DIN EN ISO 9000 ff.
+  - Ist ein Normenreihe
+  - verschiedene internationale Qualitätsnormen hat (9001, 9004)
+  - die Grundlage für die Planung ,Implementierung, Zertifizierung eines normenbasierten Qualitätsmanagementssystems
+- ## 9000
+  - definiert Grundbegriffe der Norm und Grundsätze des Qualitätsmanagements
+- ## 9001
+  - definiert die Mindestanforderung an Qualitätsmanagementssystem
+  - Grundlage für Zertifizierung
+- ## 9004
+  - gibt die Empfehlungen zur Verbesserung der Leitung eines Qualitätsmanagementsystems
+- ## Zyklus (PDCA)
+  - Plan => Do => Check => Act
+- ## Grundbaustein der Qualitätsmanagementsysteme
+  - ![alt text](QM2.png)
 - ## Qualitätsplanung und Politik
+  - ## Qualitätsplanung
+    Ist ein Teil von Qualitätsmanagementsysteme, wo
+      - Qualitätziele festgelet.
+      - Prozesse und Resourcen zum Erreichen der Ziel gerichtet.
+  - ## Politik
+    - Von Leitung der Unternehmen ausgedrückt, wie sollte
+    - umfasst alle qualitätsbezogenen Leit- und Handlungsgrundsätze und bildet den Ramenbedingungen für alle
+      Qualitätsmanagementaktivaitäten.
 - ## Schritten
+  - Ist Analyse => Soll-Konzept => Schulung der Mitarbeiter => QM-Handbuch verfassen => Interne Audits => Zertifizierung
 - ## TQM und EFQM
 - ## Softwarequalitätmerkmale
+  - Zuverlässigkeit (Ob die funktionierende Funktion immer korrekt funktionieren)
+  - Funktionalität (Ob die Funktionen und Anfoderungen erfüllt)
+  - Benutzbarkeit (Ob es leicht zu benutzen und verständlich ist)
+  - Effizienz (Ob es schnell arbeiten kann und weniger Speicherplatz braucht)
+  - Wartbarkeit (Ob es problemlos updaten kann und bei Fehler schnell beheben kann)
+  - Portablität (Ob es Plattformübergreifend ist)
 - ## 4 Testarten
+  - Modultest => Integrationstest => Systemtest => Abnahmetest
+  - ## Modultest
+    - Bei den wird jeder Modulen oder Komponenten getest
+    - Testen durch Entwickler
+    - Durch Frameworks
+    - White-Box-Tests
+  - ## Integrationstest
+    - Bei den wird von Modultest getesten einzelnen Modulen zusammengetest.
+  - ## Systemtest
+    - Bei den wird komplette Software nach Anforderungen getest.
+  - ## Abnahmetest
+    - Bei den wird Auftraggeber die geforderten Funktionalitäten getest.
+    - Black-Box-Test 
 # Datenschutz
 - ## DSGVO und DBSG
+  - ### DSGVO (EU-Datenschutz-Grundverordnung) regelt Europa-Ebene Datenschutzordnung
+  - ### DBSG (Bundesdatenschutzgesetz) regelt Deutschlandsweite Datenschutzordnung
 - ## Recht auf Auskunft, berechtigung, Lösung
+  - Hat Recht auf Auskunkt Über
+    - Verarbeitungszweck
+    - Dauer der Speicherung
+    - Empfänger der Daten
+    - Herkunft der Daten
+  - Hat Recht auf Berichtigung
+    - sofort ergänzen nicht korrekter personenbezogner Daten
+  - Hat Recht auf Löschung, Wenn
+    - Die Daten für Zweck nicht mehr notwendig
+    - Person widerruft die Einwilligung
+    - Die Daten wurde unrechtmäßig erhoben
 - ## Datenschutzbeauftragter
 - ## Einschätzung Verstoßen gegen DSGVO und DBSG
+  - Name. Vorname, E-Mail, Telefon, Geburtsdatum, Familienstand
+  Geburtsdatum und Familienstand sind nicht zwingend zu erheben
+  - 
 - ## Gewährleistungsziel von Anfoderungen DSGVO
 # IT-Sicherheit
 - ## Identitätsdiebstahl und Schadeprogramm
+  - ### Identitätsdiebstahl 
+  - Phishing (钓鱼)
+    Mithilfe von fake Webseite und E-mail wird daten ermittelt.
+  - Vishing (电话钓鱼)
+    Mithilfe von Telefon
+  - Pharming (域嫁接)
+    Damit wird die DNS angeriffen und auf fake Webseite umgeleitet.
+  - Spoofing (伪造身份验证)
+    Damit wird Identität von Angreifer verfälschen.
+  - Nicknapping (身份盗窃)
+    Damit wird die Internet-Identität von Person gestohlen
+  - ### Schadeprogramm
+  - Spam (垃圾邮件)
+    Unaufgeforderte Senden von Nachricht und Emails
+  - Spyware (间谍软件)
+    Die Information von Benutzer oder Beamten ausspähen
+  - 
 - ## Maßnahmen gegen die Gefährdung
 - ## IT-Grundschutz(BSI)
 - ## Vertraulichkeit Integrität Verfügbarkeit
+  - ### Vertraulichkeit
+    Die Daten darf nur von autorisierte Person zugreifen.
+  - ### Integrität
+    Die Daten sollte korrekt und vollständig sind und nicht durch anderem verändert
+  - ### Verfügbarkeit
+    Die Daten sollte jeder zeit von autorisierte person zugreifen können und nicht durch technische Störung beeinträchtigt.
 - ## IT-Sicherheitsgesetz
 - ## Mindmap
 - ## Verschlüsselung
@@ -165,6 +273,16 @@
 - ## Industrie 4.0
 # Software
 - ## Programmierungssprach mindmap
+  - Programmierparadigma (编程范式)
+  - ### Das "Wie" steht im Vordergrund
+    - Imperative Programmierung (命令式编程)
+      - Prozedurale Programmierung (面向过程) => C
+      - Objektorientierte Programmierung (面向对象) => Java C#
+      - Strukturierte Programmierung (面向结构) => C++ Fortran
+    - Deklarative Programmierung (声明式编程)
+      - Funktionale Programmierung (函数式编程) => ECMAScript
+      - Logische Programmierung (逻辑编程) => SQL
+  - ### Das "Was" steht im Vordergrund
 - ## Pseudo-Code
 - ## Algorithmus
 - ## HTML und XML
