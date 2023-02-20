@@ -237,6 +237,49 @@
   - 1000 Kibibyte = 1 Mebibyte
   - 1000 Mebibyte = 1 Gibibyte
   - 1000 Tebibyte = 1 Pebibyte
+- ## RAID
+  - (Redundant Arrary of Independent Disks)
+  - Datenspeicherung auf verschiedenen Festplattenlaufwerk verteilt gespeichert werden
+  - Parity Information und Fehlerkorrekturcodes ist für Datenwiederherstellung, wenn Teil der Daten verloren ist.
+  - Software-RAID und Hardware-RAID
+    - Sotware-RAID wird von Betriebssystem gesteuert und kein extra Controller braucht.
+    - Belastet CPU
+  - Hardware-RAID
+    - brauchte extra Controller auf Motherboard
+    - Unhängig von CPU
+    - auch als DAS (Direct Attached Storage)
+  - In Firmen wird durch Datenaustausch zwischen Festplatten durch intranetInternet. hier auch als NAS (Network Attached Storage) genannt
+  - Entweder mit SATA oder SAS-Festplatten
+  - Levels
+    - 0  
+    - Zerlegen Daten in Blöcke und gleichmäßig verteilt auf allen Platten.
+    - Mindestens Zwei Festplatten
+    - Großer Kapazität
+    - Wenn ein Platte daten verlust, dann verlust alle Daten.
+      ![alt text](IT-System1.jpg)
+    - 1
+    - Allen Daten werden mehrmals auf allen Platten geschrieben(Clone)
+    - Mindestens Zwei Festplatten
+    - Weniger Kapazität
+    - Bei Ausfall einer Platte verliert kein Daten
+      ![alt text](IT-System2.jpg)
+    - 5 
+    - Allen Daten und eine zusätzlichen Parity-information werde verteilt auf allen Platten gespeichert werden
+    - Mindest Drei Festplatten
+    - Bei Ausfall einer Platte könnte Raid von anderen Daten mit dazugehörigen Parity-information zusammenausrechnen. Also sichere als RAID 2
+    - Jeder Platte hat 20% Kapazität weniger
+      ![alt text](IT-System3.jpg)
+    - 6
+    - Allen Daten und mehreren zusätzlichen Parity-Information werden verteilt auf allen Platten gespeichert werden
+    - Mindest vier Festplatten
+    - Bei Ausfall mehreren Platte könnte Raid von anderen Daten mit dazugehörigen Parity-information zusammenausrechnen. Also sichere als RAID 5, aber teuere als 5
+      ![alt text](IT-System4.jpg)
+    - 10
+    - Kombination 0 mit 1, Allen Daten in Blöcke und ihre Clone gleichmäßig verteilt auf allen Platten
+    - Mindest vier Festplatten
+- ## Backup
+  - ### VollDatensicherung
+    
 - ## Analyse der marktgängigen IT-System
 - ## Open Source,GNU GPL,Public Domain
 - ## Parallele und Serielle
@@ -264,7 +307,6 @@
   - ![alt text](IT-System1.png)
   - ![alt text](IT-System2.png)
   - ![alt text](IT-System3.png)
-- ## Einheiten
 - ## Schaltplanung
 - ## Dateiformaten 
 - ## Bilddaten berechnen
