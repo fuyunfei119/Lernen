@@ -218,6 +218,25 @@
 - ## Strukturanalyse, Schutzbedarfsfeststellung, Modellierung
 - ## Authentifizierung
 # IT-Systeme
+- ## Zentralen und Dezentralen IT-Infrastruktur
+  - ### Vorteile von Zentralen
+    - Anschaffungsrabatte
+    - Weniger Administrator
+  - ### Vorteile von Dezentralen
+    - Flexbilität
+    - Fehlerminimierung
+- ## Datenvolumen Einheiten
+  - 1 Bit = 8 Byte
+  - 1000 Byte     = 1 KiloByte
+  - 1000 KiloByte = 1 MegaByte
+  - 1000 MegaByte = 1 GigaByte
+  - 1000 GigaByte = 1 TeraByte
+  - 1000 TeraByte = 1 PetaByte
+
+  - 1000 Byte     = 1 Kibibyte
+  - 1000 Kibibyte = 1 Mebibyte
+  - 1000 Mebibyte = 1 Gibibyte
+  - 1000 Tebibyte = 1 Pebibyte
 - ## Analyse der marktgängigen IT-System
 - ## Open Source,GNU GPL,Public Domain
 - ## Parallele und Serielle
@@ -225,8 +244,6 @@
     Punkt zu Punkt Verbindung
     Jedes Geräte über separate Leitung angeschlossen
     SATA 1.5 3.0 6.0
-- ## Dezentralen und Zentralen -IT Infra
-  - ## 
 - ## Datenübertragungsrate
 - ## HD und SSD
 - ## Dezimalzahl und hexadezimalzahl
@@ -314,23 +331,26 @@
 - ## Kenngrößen, Leistungsdaten, usw.
 # Arbeits- und Geschäftsprozesse
 - ## Marktform
-  - ## Nach der Anzahl der Anbieter werden drei verschiedene Marktformen definiert: (根据供应商的数量，定义了三种不同的市场形式)
-    -  Monopol 垄断（唯一供应商）
-       1 Anbieter => mehrere Nachfrager
-       Gar kein Konkurrenz
-    -  Oligopol (wenige Anbieter) 寡头垄断（少数供应商）
-       Weniger Anbieter => mehrere Nachfrager
-        - vorteile:
-         - Höhe Gewinn durch weniger Konkurrenz
-         - Weniger Anbieter, Weniger Preiskampf
-         - Weniger Investoren ins Werbung
-        - Nachteile:
-         - Kunden kann leicht Preis vergleichen
-         - Höhe Preis für Verbraucher
-         - Mangel an Wettbewerb => Mangel an Innovation
-    -  Polypol (viele Anbieter) （许多供应商）
-       mehrere Anbieter => mehrere Nachfrager
-       Vollkommende Konkurrenz
+  Nach der Anzahl der Anbieter werden drei verschiedene Marktformen definiert: (根据供应商的数量，定义了三种不同的市场形式)
+    -  Monopol 垄断（唯一供应商）<br />
+      - 1 Anbieter => mehrere Nachfrager <br />
+      - Gar kein Konkurrenz <br />
+      - Beispiel: Deutsche Bahn, Deutsche Post <br />
+    -  Oligopol (wenige Anbieter) 寡头垄断（少数供应商）<br />
+      - Weniger Anbieter => mehrere Nachfrager <br />
+      - Gleichgewichte Konkurrenz <br />
+      - Beispiel: Lebensmittelladen, Wohnungsmarkte <br />
+    -  Polypol (viele Anbieter) （许多供应商）<br />
+      - mehrere Anbieter => mehrere Nachfrager <br />
+      - Vollkommende Konkurrenz <br />
+      - Beispiele: Internet Provider,  Automobilindustrie <br />
+
+    - vorteile von Oligopol:
+         - durch weniger Anbieter ist Preiskampf 
+         - durch weniger konkurrenz auch weniger investition ins Werbung
+    - Nachteile von Oligopol:
+         - durch weniger Anbieter ist Mangel an Innovation
+         - Anbieter können untereinander verhandeln, eine illegale Preis geben
 - ## Käufer- Verkäufermärkte
 - ## Nachfrage - Angebot
   ![alt text](Markt1.svg)
