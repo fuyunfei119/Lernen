@@ -78,6 +78,12 @@
     - Planning (Design) => Build => Test => Review
     - Ein Sprint darf nicht unterbrechen.
     - Dauern 1 bis 4 Wochen
+- ## Abgabe Projekt
+  - ### Protokolle
+    - Benutzerdokumentation
+    - Programmdokumentation
+    - Schnittestelledokumentation
+    - Testprotokoll
 # Qualitätsmanagement
 - ## Struktur
   - ### Philosophie
@@ -279,7 +285,41 @@
     - Mindest vier Festplatten
 - ## Backup
   - ### VollDatensicherung
-    
+    - Allen Daten werden gespeichert werden
+    - Vorteile:
+      - Prozess einfach
+      - Einfach Wiederherstellen
+    - Nachteile:
+      - Große Zeitlich Aufwand
+  - ### Differentiellensicherung
+    - Zunächst Vollsichrung und dann wurde alle Daten, die seit letzte Vollsicherung geänderte wurden, gespeichert.
+      - Vorteile:
+        - Schneller als Vollbackup
+      - Nachteile:
+        - nicht effizient, sobald eine änderungen besteht, muss Sicherung durchführen
+        - Brauch mehr speicherplatz
+  - ### Inkrementellensichrung
+    - Zunächst Vollsichrung und dann wurde alle Daten, die nach jeweils letzten Sicherung geänderte wurden, gespeichert.
+      - Vorteile:
+        - Effizient, jedes mal muss kleine Änderungen speichern
+        - schnell erlediglich
+      - Nachteile:
+        - langsame wiederherstellung
+- ## Virtualisierung
+  - ist eine Simulation von physischer Hardware. Dabei wird virtuelle Betriebssystem, Speicher und Netzwerk Ressourcen erzeugen.
+  - Server-Virtualisierung
+    - Ein Physischer Host darauf mehrere Virtuelle Server 
+  - Speicher-Virtualisierung
+    - Mehrere Physischer Host zusammenbinden, um eine Speicherpool zu erzeugen 
+  - Vorteile:
+    - Geringe Anschaffungskosten
+    - Physischer Host ausnutzen
+  - Nachteile:
+    - Ausfall alle Virtuelle Server, wenn Host ausfall
+    - Schlecht für Host
+- ## USV
+  - ### Ununterbrechungsstromversorgung
+    Schützt vor potenziellen unerwartete Ausfall von Strom. Dadurch bleibt Rechnerzentrum am Laufen, nicht sofort ausschalten. USV wird die Stromversorgung von allen Geräten ausgleichen. So hat man noch Zeit um Daten zu retten.
 - ## Analyse der marktgängigen IT-System
 - ## Open Source,GNU GPL,Public Domain
 - ## Parallele und Serielle
@@ -449,6 +489,27 @@
   - Lenkungsfunktion
   - Signalfunktion
   - Erziehungsfunktion
+- ## AIDA
+  - Kunden zum Kaufabschluss zu führen
+  - ### Attention (Aufmehrsamkeit)
+    - Den Kunden aufmehrsam machen
+  - ### Interest (Interesse)
+    - Den Interesse von Kunden wecken
+  - ### Desire (Verlangen)
+    - Den Wunsch von Kunden wecken
+  - ### Action
+    - Lass Kunden kaufen
+- ## Monetäre und nicht monetäre Anreiz von Mitarbeiter
+  - ### Monetäre
+    - Bonus nach Projekt geben
+    - Weihnachtgeld und Urlaubgeld
+  - nicht monetäre
+    - Homeoffice
+    - gute Hardware Unterstützung
+- ## Anwendungssytem drei Ebenen
+  - Strategische Ebenen
+  - Management Ebenen
+  - Operative Ebenen
 - ## Geldstöme
 - ## Aufbau Organisation und Geschäftsprozessen
 - ## Führungsstil
@@ -474,3 +535,9 @@
 - ## Mängel, Mängelarten
 - ## Rechnung
 - ## Marketing
+- ## CRM
+  - ein strategische Software, dient zum Kundenverwaltung, Dabei wurde dokumentiert, was wann wo kunden gesagt oder gemacht. 
+- ## BI
+  - ein Verfahren zu analysieren unternehmensdaten. Dabei wird die Daten gesammelt und auswertet und präsentiert.
+- ## ERP
+  - ein Software, die alle kernprozessen von unternehmen hat. 
