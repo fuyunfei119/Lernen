@@ -1,6 +1,13 @@
 # Projekmanagement
 - ## Definition
   - Projekt ist einmaliges Vorhaben mit klarem Ziel und einem definierten Anfang und Ende Termin. Also ist Zeitlich befristet. 
+
+- ## Rahmenbedingungen von Projekts
+  - Wirtschaftliche (maximale Kosten)
+  - Technische (technische Standards)
+  - Rechtliche (Datenschutz-Grundverordnung)
+  - Terminliche (Start und End- Termin)
+  - Organisatorische (Organisationsform des Proejektes)
 - ## Kenngrößen des Projekts 
   -  Kenngrößen ist dafür, den Fortschrift, den Erfolg und Wirksamkeit eines Projekts zu messen und bewerten.
      - Zeit (每个步骤进度所需的事件)
@@ -20,6 +27,8 @@
   - R	===>	realistisch (Ziel sollte umsetzbar)
   - T	===>	terminiert (Ziel sollte zeitlich geplant werden)
 - ## Stakeholder
+  - sind die Personen, die direkt oder indirekt mit Projekt zu tun haben.
+  - Können von Projekt beeinflusst oder Einfluss auf Projekt haben.
   -	Projektleiter
   -	Projektmitarbeiter
   -	Kunden
@@ -27,9 +36,9 @@
   -	Auftraggeber
   -	Sponsoren (赞助商)
 - ## Projektphasen
-  -	Projektauftrag / Definition
-  -	Projektplanung
-  -	Projektdurchführung
+  -	Projektauftrag / Definition => Machbarkeitanalyse (Technisch, Wirtschaftlich, Organisatorisch)
+  -	Projektplanung => Gantte Planung und Netzplan
+  -	Projektdurchführung => Gantte Planung
   -	Überwachung und Testen
   -	Projektabschluss
 - ## Aufgaben von Projektmanagement
@@ -84,7 +93,28 @@
     - Programmdokumentation
     - Schnittestelledokumentation
     - Testprotokoll
+- ## Risiken und Gegenmaßnahmen von Projekten
+  - zu hohe Projektkosten => Kostenplanung und Amorisationsrechnung
+  - Verstoß gegen Datenschutzgesetz => Festlegung und Anwendung von Datenschutzrichtlinien
+  - Datensicherheitproblem => Festlegung und Anwendung von Datensichheitrichtlinien
 # Qualitätsmanagement
+- ## Kriterien von Produkt
+  - ### Zuverlässigkeit
+  - ### Skalibarkeit
+  - ### Wartbarkeit
+  - ### Benutzerfreudlichkeit
+- ## Kriterien von Dienstleistungen
+  - ### Freundlichkeit
+  - ### Fachliche Kompetzenz
+  - ### Zuverlässigkeit
+  - ### Erreichbarkeit
+  - ### Kommunikaitonsfähigkeit von Mitarbeiter
+- ## Pilot (Probe)
+  - ### Weitere Projektplanung einsetzen
+  - ### Abgleich Ist-Soll Stand
+  - ### Stabilität
+  - ### Fehlertoleranz
+  - ### Kundenzufriendenheit
 - ## Struktur
   - ### Philosophie
     TQM und EFQM
@@ -167,6 +197,21 @@
     - Bei den wird Auftraggeber die geforderten Funktionalitäten getest.
     - Black-Box-Test 
 # Datenschutz
+- ## 7 datenschutzrechtlichen Grundsätze
+  - Datenminimierung
+    - Es sollte nur notwendige Daten erhoben werden.
+  - Zweckbindung
+    - Erhobenen Daten sollte nur Zweck relevant sein.
+  - Verbot mit Erlaubnisvorbehalt
+    - Um Daten zu nutzen muss eine Erlaubnis haben
+  - Datenrichtigkeit
+    - Daten müssen sachlich und inhaltlich richtig sein.
+  - Rechtmäßigkeit und Transparenz
+    - Die Daten muss auf rechtmäßige Weise verarbeitet werden
+  - Vertraulichkeit Integrität Verfügbarkeit
+    - Datensicherheiten
+  - Speicherbegrenzung
+    - Erhobenen Daten darf nur in stimmten Zeit nach Zweck gespeichert werden.
 - ## DSGVO und DBSG
   - ### DSGVO (EU-Datenschutz-Grundverordnung) regelt Europa-Ebene Datenschutzordnung
   - ### DBSG (Bundesdatenschutzgesetz) regelt Deutschlandsweite Datenschutzordnung
@@ -224,6 +269,9 @@
 - ## Strukturanalyse, Schutzbedarfsfeststellung, Modellierung
 - ## Authentifizierung
 # IT-Systeme
+- ## Ticket System
+  - ### First-Level-System
+  - 
 - ## Zentralen und Dezentralen IT-Infrastruktur
   - ### Vorteile von Zentralen
     - Anschaffungsrabatte
@@ -352,7 +400,29 @@
 - ## Bilddaten berechnen
 - ## Kodierung
 - ## Cloud computing
+  - ### Vorteile: 
+    - Dadurch weniger Adminstrator brauchen
+    - Dadurch weniger Hardware Kosten
+  - ### Nachteile:
+    - Sehr Internetabhängig
+    - Problem Schutz vor Daten
+  - ### Public Cloud
+    - von Cloud Provider anbieten (Azure, AWS)
+    - Kein Kontroll auf physischer Server
+    - weniger Datensicherung
+  - ### Private Cloud
+    - Server liegt bei Unternehmen
+    - Kontroll auf physischer Server
+    - mehr Datensichrung
+  - ### Hybrid Cloud
+    - eine Kombination von Public und private Cloud
 - ## IAAS PAAS SAAS
+  - ### Plattform as a service (SAP Cloud, AWS Lambda)
+  - nur Hardware und Plattform anbieten. Inhaltlichen Anwendungen App muss kunden selbst entwicklen
+  - ### Software as a service (Office 365)
+  - wird ein Software Produkt ausliefern, seinem IT-Infrastruktur und Plattform liegt aber bei externen IT-Dienst. Kunden errecht über Internet
+  - ### Infrastructur as a service (AWS, Azure)
+  - nur Hardware anbieten auch als Cloud genannt. Plattform und App muss kunden selber verwalten und entwicklen.
 - ## DIN VDE 100-410
 - ## Betriebssystem
 - ## VGA DVI-D HDMI1 HDMI2 displayport
@@ -382,6 +452,15 @@
       - Funktionale Programmierung (函数式编程) => ECMAScript
       - Logische Programmierung (逻辑编程) => SQL
   - ### Das "Was" steht im Vordergrund
+- ## Art der Software
+  - ### Standardsoftware
+    - für einen klar definierten Zweck eingesetzt.
+    - Vorfertigesproduckt
+    - in unterscheidlichen Bereichen einsetzbar
+  - ### Individualsoftware
+    - speziell für Wunsch von Kunden
+  - ### Branchensoftware
+    - eine Art von Standardsoftware, aber nur für speziellen Markt und Branchen
 - ## Pseudo-Code
 - ## Algorithmus
 - ## HTML und XML
@@ -394,7 +473,6 @@
 - ## Softwarelebenszyklus
 - ## Programmablaufplan
 - ## Struktogramm
-- ## Abnahmeprotokoll, Benutzerdokumentation, Kundendokumentation, Programmdokumentation
 - ## Datenbanken
 - ## Entity-Relationsship-Diagramm
 - ## Normalisierung
