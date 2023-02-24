@@ -139,7 +139,7 @@
     International Electrotechnical Commission
   
   Normen muss nicht durchgeführt werden. Es gibt kein Strafgeld.
-- ## 7 Grundsätze
+- ## 7 Grundsätze von Qualitätsmanagement
   - ### Kundenorientierung (以顾客为关注焦点)
   - ### Verantwortlichkeit der Führung (领导作用)
   - ### Einbeziehung der Mitarbeiter (全员参与)
@@ -271,7 +271,7 @@
 # IT-Systeme
 - ## Ticket System
   - ### First-Level-System
-  - 
+  - ### Second-Level-System
 - ## Zentralen und Dezentralen IT-Infrastruktur
   - ### Vorteile von Zentralen
     - Anschaffungsrabatte
@@ -461,6 +461,23 @@
     - speziell für Wunsch von Kunden
   - ### Branchensoftware
     - eine Art von Standardsoftware, aber nur für speziellen Markt und Branchen
+- ## Libraries und Frameworks
+  - ### Libraries
+  - Vorfertiges Produkt
+  - sofort benutzbar
+  - kein speziellen Regel zu halten
+  - ### Frameworks
+  - Halbfertiges Produkt
+  - nur Grundgerüst, muss erst konfigurieren
+  - muss auf speziellen Regel zu halten
+- ## Ergonomische Prinzipien
+  - ### Aufgabenangemessenheit (geeignete Funktionalität, minimierung unnötiger Interaktion)
+  - ### Selbstbeschreibungsfähigkeit (Verständlichenkeit durch Rückmeldung)
+  - ### Fehlertoleranz (unbekannte Fehler verhindern)
+- ## Barrierenfreiheit am Arbeitsplatz
+  - ### Maßnahmen Sehvermögen
+  - ### Maßnahmen Hörvermögen
+  - ### Maßnahmen motorische Fähigkeiten
 - ## Pseudo-Code
 - ## Algorithmus
 - ## HTML und XML
@@ -469,7 +486,17 @@
 - ## IDE
 - ## Compiler, Linker, Interpreter
 - ## Variablen, Datenstrukturen, Kontrollstrukturen, Funktionen, Klassen, Vererbung
+  - ### Klassen
+    - Element von OOP, die mehreren Variablen und Funktionen enthalten.
+  - ### Vererbung
+    - Klassen und Klassen können miteinander vererbt werden.
+  - ### Funktion
+    - Durch Funktion wird definiert, wie die Variablen verhalen sollen.
 - ## Debugging, Fehlersuche
+  - ### Funktionen von Debugging
+    - Breakpunkt setzen
+    - Zeilen für Zeilen ausführen
+    - Werte von Varibale auslesen im Laufen des Programm
 - ## Softwarelebenszyklus
 - ## Programmablaufplan
 - ## Struktogramm
@@ -588,6 +615,11 @@
   - Strategische Ebenen
   - Management Ebenen
   - Operative Ebenen
+- ## Präsentation
+  - ### Weniger Grafiken und Animation
+  - ### Context folgen
+  - ### Zielgruppen klarmachen
+  - ### Kurze Text
 - ## Geldstöme
 - ## Aufbau Organisation und Geschäftsprozessen
 - ## Führungsstil
