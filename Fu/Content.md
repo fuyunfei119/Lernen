@@ -1,7 +1,6 @@
 # Projekmanagement
 - ## Definition
   - Projekt ist einmaliges Vorhaben mit klarem Ziel und einem definierten Anfang und Ende Termin. Also ist Zeitlich befristet. 
-
 - ## Rahmenbedingungen von Projekts
   - Wirtschaftliche (maximale Kosten)
   - Technische (technische Standards)
@@ -35,12 +34,22 @@
   -	Benutzer
   -	Auftraggeber
   -	Sponsoren (赞助商)
+- ## Projektleiter
+  - ### Aufgaben
+    - Ziel festlegen
+    - Mitarbeitereinsatz plan
+    - Aufgaben verteilen
+    - Budget Kontrollieren
 - ## Projektphasen
-  -	Projektauftrag / Definition => Machbarkeitanalyse (Technisch, Wirtschaftlich, Organisatorisch)
-  -	Projektplanung => Gantte Planung und Netzplan
-  -	Projektdurchführung => Gantte Planung
+  -	Projektauftrag / Definition
+    - IST-Anaylse, Machbarkeitanalyse,Kostenschätzung
+  -	Projektplanung 
+    - Planung aller Projektressourcen
+  -	Projektdurchführung
+    - Abarbeitung der Arbeitspakete
   -	Überwachung und Testen
   -	Projektabschluss
+    - Übergabe des Projekts, Lessons Learned
 - ## Aufgaben von Projektmanagement
   -	Planung
   -	Organisation
@@ -48,6 +57,14 @@
   -	Führung
   -	Kontrolle
 - ## Gantt-Diagramm
+  - ### Vorteile:
+    - Übersichtliche Darstellung
+    - Zeitmanagement
+    - Flexbilität
+  - ### Nachteile:
+    - Nur für kleinen Projekt
+    - Mitarbeiter muss eingearbeitet werden
+    - Komplex zu lesen
 - ## Netzplan
 - ## Kritscher Pfad
 - ## Wasserfallmodell
@@ -97,6 +114,22 @@
   - zu hohe Projektkosten => Kostenplanung und Amorisationsrechnung
   - Verstoß gegen Datenschutzgesetz => Festlegung und Anwendung von Datenschutzrichtlinien
   - Datensicherheitproblem => Festlegung und Anwendung von Datensichheitrichtlinien
+- ## Lesson-Learned-Workshops
+  - ### Inhalt
+    - zusammenfassung das Projektablauf
+    - Verbesserungsvorschläge
+    - Darstellung von Kommunikationsproblem
+  - ### Phasen
+    - Vorbereitung des workshops
+      - Moderator festlegen
+      - Teinehmer Kreis bestimmen
+      - Agenda bestimmen
+    - Durchführung
+      - Agenda durchführen
+      - Feedback sammeln
+    - Nachbearbeitung
+      - zusammenfassen
+      - Veröffentlichen
 # Qualitätsmanagement
 - ## Kriterien von Produkt
   - ### Zuverlässigkeit
@@ -109,6 +142,13 @@
   - ### Zuverlässigkeit
   - ### Erreichbarkeit
   - ### Kommunikaitonsfähigkeit von Mitarbeiter
+- ## Kriterien von Softwareprodukt
+  - Funktionalität (Black-Box-Test)
+  - Zuverlässigkeit (Lasttest)
+  - Benutzerbarkeit (Test durch ungeschulte Leute)
+  - Performance (Lasttest)
+  - Änderbarkeit (einiger Modul erweitern oder blockieren)
+  - Übertragbarkeit (auf anderen Betriebssystem)
 - ## Pilot (Probe)
   - ### Weitere Projektplanung einsetzen
   - ### Abgleich Ist-Soll Stand
@@ -197,6 +237,12 @@
     - Bei den wird Auftraggeber die geforderten Funktionalitäten getest.
     - Black-Box-Test 
 # Datenschutz
+- ## Unterscheid zwischen Datenschutz und Datensicherheit
+  - Datenschutz bezieht sich auf rechtlichen Aspekten von Schutz vor personenbezognen Daten. z.B: Welchen Daten darf ich wozu verwenden?
+  - Datensicherheit bezieht sich auf technischen Aspekten von Datenschutz. Wie sollte die Daten gespeichert werden, damit die nicht verlieren kann.
+- ## Zugang und Zugriffskontrolle
+  - Zugangskontrolle regelt, dass nur Person mit berechtigung auf Rechenzentrum zutreten darf. Ansonst wird Alarmanlagen auslöschen.
+  - Zugriffskontrolle regelt, dass nur person mit berechtigung auf Daten zugreifen darf.
 - ## 7 datenschutzrechtlichen Grundsätze
   - Datenminimierung
     - Es sollte nur notwendige Daten erhoben werden.
@@ -253,6 +299,23 @@
     Die Information von Benutzer oder Beamten ausspähen
   - 
 - ## Maßnahmen gegen die Gefährdung
+- ## IT-Sicherheitsbeauftragten
+  - ### Aufgaben
+    - Risikomanagement
+    - Sicherheitskonzept
+    - Schulung
+    - Überwachung
+    - Compliance
+  - ### Maßnahmen für Mitarbeiter
+    - Durchführen von Schulung
+    - Erstellen Informationsflyer
+    - Blog-Beitrage im Intranet
+    - Workshop oder Seminar
+  - ### Maßnahmen gegen Password
+    - Ausreichenden Passwordlänge
+    - kein persönlichen Bezug
+    - Verwendung sondern Zeichen
+    - Unterscheidlichen Password
 - ## IT-Grundschutz(BSI)
 - ## Vertraulichkeit Integrität Verfügbarkeit
   - ### Vertraulichkeit
@@ -267,6 +330,16 @@
 - ## Datensicherung
 - ## RAID
 - ## Strukturanalyse, Schutzbedarfsfeststellung, Modellierung
+  - ### Ziel der Schutzbedarfsfeststellung
+    - Wie viel Schutz braucht es?
+    - Welcher Schaden würde entstehen?
+    - Welche Object braucht besondere Sicherheit?
+    - Für Welche Object reicht Standard-Anfoderung schon aus. 
+  - ### Relevante Objektes / Ressourcen
+    - IT-System
+    - Anwendungen
+    - Räume
+    - Dienstleistung
 - ## Authentifizierung
 # IT-Systeme
 - ## Ticket System
@@ -368,6 +441,14 @@
 - ## USV
   - ### Ununterbrechungsstromversorgung
     Schützt vor potenziellen unerwartete Ausfall von Strom. Dadurch bleibt Rechnerzentrum am Laufen, nicht sofort ausschalten. USV wird die Stromversorgung von allen Geräten ausgleichen. So hat man noch Zeit um Daten zu retten.
+- ## UEFI
+  - Unified Extensible Firmware Interface
+  - ist ein Schnittestelle zwischen Mainboard und Betriebssystem
+  - Ein Nachfolger von BIOS
+  - schneller als BIOS
+  - Grafische Oberfläche
+  - Bedienbar mit Mouse und Tastatur
+  - Kann mit Internet verbinden 
 - ## Analyse der marktgängigen IT-System
 - ## Open Source,GNU GPL,Public Domain
 - ## Parallele und Serielle
@@ -377,6 +458,21 @@
     SATA 1.5 3.0 6.0
 - ## Datenübertragungsrate
 - ## HD und SSD
+  - ### HD (Hard Disk Drive)
+    - magnetischen Schreiben von Drehen
+    - Hohen Kapazität
+    - biliges Preis
+  - ### SSD (Solid State Drive)
+    - Flash-Speicherchips
+    - schneller und Zuverlässig
+  - ### Vorteile von SSD
+    - Weniger Geräuschlos
+    - schnell
+    - Weniger Abwärme
+    - Umempfindlich gegen Stößen
+  - ### Nachteile von SSD
+    - Teuer
+    - Weniger Lebenszeit
 - ## Dezimalzahl und hexadezimalzahl
   - ### Dezimal in Dualzahl => Dezimal Zahl immer durch 2
   - ### Dualzahl in Dezimalzahl
@@ -395,6 +491,20 @@
   - ![alt text](IT-System1.png)
   - ![alt text](IT-System2.png)
   - ![alt text](IT-System3.png)
+- ## ECC
+  - Error Correcting Code von DDR4
+  - Wird die 1-Bit-Fehler selber korrigieren und 2-Bit-Fehler erkennen
+  - Dadurch Fehler bei der Datenspeicherung vermeiden
+- ## Thin Clients
+  - eine schlanke Client-system, die durch Internet mit seinem Server verbinden.
+  - Hardware - Anforderung weniger
+  - weniger Stromverbrauch
+  - Mehreren Client mit einen Server verbinden
+- ## Schnittestelle
+  - ### PCI Express => Grafikkarte
+  - ### SATA => SSD
+  - ### USB 2 => Mouse und Tastatur
+  - ### USB 3 => Drucker und High End SSD
 - ## Schaltplanung
 - ## Dateiformaten 
 - ## Bilddaten berechnen
@@ -416,6 +526,15 @@
     - mehr Datensichrung
   - ### Hybrid Cloud
     - eine Kombination von Public und private Cloud
+- ## Hosting
+  - ### Cloud-Hosting
+    - Ein Cluster (mehreren Server)
+    - Cluster kann automatisch je nach Bedarf skalieren
+    - Geeignet für Unternehmen
+  - ### Web-Hosting
+    - Ein Server darauf mehreren Websites
+    - mehreren Websites teilen Ressourcen
+    - Günstig für kleinen Websites
 - ## IAAS PAAS SAAS
   - ### Plattform as a service (SAP Cloud, AWS Lambda)
   - nur Hardware und Plattform anbieten. Inhaltlichen Anwendungen App muss kunden selbst entwicklen
@@ -425,6 +544,11 @@
   - nur Hardware anbieten auch als Cloud genannt. Plattform und App muss kunden selber verwalten und entwicklen.
 - ## DIN VDE 100-410
 - ## Betriebssystem
+  - ### Kompabilitätsmodus
+    - Lass das Programm mit führeren Version des Betriebssystem starten
+  - ### mit reduzierten Farben ausführen
+    - Lass das Programm mit 8 Bit anstatt 256 Bit Farben ausführen
+  - ### 
 - ## VGA DVI-D HDMI1 HDMI2 displayport
   - ### VGA (Vedio Graphics Array)
     bis 1280 X 720 Pixel
@@ -440,6 +564,33 @@
     bis 3840 X 2160
 - ## USB-C (Type-C)
 - ## Industrie 4.0
+  - Dabei wird Menschen mit Maschinen und Produkt miteinander verbinden durch Internet. Damit das Produktablauf und Geschäftsprozess automatisieren und Leistung verstärken.
+- ## CMS 
+  - Content management System
+  - Erstellung, Bearbeitung, Organisation, Darstellung von Inhalt von Website
+  - besteht aus CMA (Content Management Application) und CDA (Content Delivery Application)
+  - Wordpress, Shopify
+- ## Usability
+  - Benutzerfreundlichkeit einer Oberfläche
+  - Gute Usability kann Kundenzufriedenheit erhöhen
+- ## User Experience
+  - Erweitert Usablity
+  - Angenehmen Interaktion mit Oberfläche
+- ## Grafische Oberfläche
+  - ### Vorteile:
+    - einfach bedienen
+    - Weniger Lernzeit
+  - ### Nachteile:
+    - Langsamer Bearbeitung
+    - Mehr Ressourcen
+    - Einschränkung durch Programm ohne UI
+- ## Kommandozeilen
+  - ### Vorteile:
+    - schnell Bearbeitung
+    - Weniger Ressourcen
+  - ### Nachteile:
+    - Mehr Lernzeit
+    - Ergebnisausgabe in Text
 # Software
 - ## Programmierungssprach mindmap
   - Programmierparadigma (编程范式)
@@ -478,13 +629,33 @@
   - ### Maßnahmen Sehvermögen
   - ### Maßnahmen Hörvermögen
   - ### Maßnahmen motorische Fähigkeiten
+- ## Complier und Skriptssprachen
+  - ### Compliersprach
+    - #### Vorteile:
+      - Schnell Ausführung von komplierte Maschinencodes
+      - meist Plattformübergreifend
+      - meist Typsicherheit
+  - ### Skriptssprachen
+    - #### Vorteile:
+      - Änderung sofort ausführbar
+      - kein Entwicklungsumgebung nötig
+      - Schnell und einfach lernbar
+- ## Interpreter und Compiler  
+  - ### Unterschied
+    - Zeitpunkt der Quellcode Übersetzung
+    - Interpreter Sprachen erfolgt Übersetzung im lauf des Programm Zeilen zu Zeilen
+    - Compiler sprachen erfolgt vor Ausführung des gesamte Code von Programm
+- ## Linker
+  - Führt alle Kompilierte Objectdatei mit anderen lauffähigen Datei oder Bibliothek zusammen. Hierdurch wird Zugriff zwischen Objectdateien verbunden, Wenn alle zugriffe aufgelöst wurden, wird Binärdatei erzeugen.
+- ## Variable und Konstanten
+  - Variable ist Platzhalter, wo veränderbare Werte speichert.
+  - Dadurch wird ein Speicherplatz erschließen
 - ## Pseudo-Code
 - ## Algorithmus
 - ## HTML und XML
 - ## UML
 - ## use-case
 - ## IDE
-- ## Compiler, Linker, Interpreter
 - ## Variablen, Datenstrukturen, Kontrollstrukturen, Funktionen, Klassen, Vererbung
   - ### Klassen
     - Element von OOP, die mehreren Variablen und Funktionen enthalten.
@@ -594,6 +765,12 @@
   - Lenkungsfunktion
   - Signalfunktion
   - Erziehungsfunktion
+- ## SWOT
+  - Ziel ist, Projektstrategie abzuleiten, Chancen sollen genutzt werden und Schwächen soll beseitigt werden
+  - ### S (Stärken)
+  - ### W (Schwächen)
+  - ### O (Chance)
+  - ### T (Risiken)
 - ## AIDA
   - Kunden zum Kaufabschluss zu führen
   - ### Attention (Aufmehrsamkeit)
@@ -604,6 +781,7 @@
     - Den Wunsch von Kunden wecken
   - ### Action
     - Lass Kunden kaufen
+- ## 
 - ## Monetäre und nicht monetäre Anreiz von Mitarbeiter
   - ### Monetäre
     - Bonus nach Projekt geben
@@ -620,12 +798,96 @@
   - ### Context folgen
   - ### Zielgruppen klarmachen
   - ### Kurze Text
+- ## Verkauf
+  - ### Cross-Selling
+    - Außer Standard Produkt noch zusäztlichen Verkauf an Kunden durch ausnutzen der Kundenbeziehung.
+  - ### Up-Selling
+    - Statt normalen Produkt das Produkt mit teueren Preis.
+  - ### Direkt Betrieb
+    - Verkauft der Hersteller seinem Produkt direkt an Kunden
+  - ### Indirekt Betrieb
+    - Verkauft der Verhändler das Produkt von Hersteller an Kunden.
+- ## Angebot
+  - ### Inhaltliche Angaben
+    - Name des Unternehmens
+    - Datum, das Angebot erstellt wurde
+    - Beschreibung des Produkts
+    - Menge des Produkts
+    - Preis des Produkts
+  - ### Formale Angaben
+    - Überschrift "Angebot"
+    - Firmenlogo
+    - Kontaktdaten des Untermehmens
+    - Address
+    - Angebotsfrist
 - ## Geldstöme
 - ## Aufbau Organisation und Geschäftsprozessen
+  - ### Linienstellen (Instanzen)
+  - Durchführung von Kernprozessen
+  - beteilung an Unternehmensentscheidung
+  - ### Ausführende Stellen
+  - Durchführeung von Entscheidung von Linienstellen
+  - Arbeiten direkt mit Kunden
+  - ### Stabstellen
+  - Kein Operativen Stelle
+  - Unterstützen Linien und ausführenden Stellen
+  - Typische Aufgaben: Personalwesen,Recht,Finanzen,Marketing
+
+  - ### Funktionsorientierte Aufbauorganisation
+  - ### Produktorientierte Aufbauorganisation
+  - ### Einliniensystem
+  - Ein Untergeordnete Stelle enthält nur Anweisung von einer Übergeordnete Stelle.
+  - #### Vorteile:
+    - Kein Kompetenzkonflikt durch Machtkämpfe
+    - Klare Kompetenzverteilung
+    - Klare Struktur
+  - #### Nachteile:
+    - Überlastung von Vorgesetzen
+    - schwere Kommunikationswege
+    - lange Entscheidungsfindung
+  - ### Mehrliniensystem
+    - Ein Untergeordnete Stelle enthält nur Anweisung von mehreren Übergeordnete Stelle.
+    - #### Vorteile:
+      - direkter Kommunikationswege
+      - Entlasung von Vorgesetzen
+      - Mehr Kontrolle über Mitarbeiter
+    - #### Nachteile:
+      - Kommunikationsfehler wegen Mehrfachunterstellung
+      - Kompetenzstreitigkeiten zwischen Vorgesetzten
+      - Schwierige Fehlerzuweisung
+  - ### Stab-Linien-System
+    - mehreren Stab gibt, die den Linienstellen hilft.
+    - #### Vorteile:
+      - Entlastung von Führungskraft
+      - Erhöhung der Entscheidungsqualiät
+      - Kein Kompetenzkonflikt durch Machtkämpfe
+    - #### Nachteile:
+      - Konflikte zwischen Linien und Stab
+      - Zusätzlihce Kosten durch Stäb
+      - Stäbe Überlasten
+  - ### Matrixorganisation
+    - besteht aus funktion und produkt orientierte Organisation
+    - Erweiterung von Mehrlinienorganisation
+    - Untergeordnet Stelle enthält Anweisung von zwei Übergeordnete Stelle
+
+    - #### Vorteile:
+      - kurze Weg in der Kommunikation
+      - Flache hierachie
+      - Förderung von Teamarbeit
+    - ### Nachteile:
+      - Längere Entscheidungsprozess
+      - Kompetenzkonflikt durch Machtkämpfe
+      - Fehlende Transparenz bei Entscheidungsprozess
 - ## Führungsstil
+  - ### Atuoritär
+  - ### kooperativ
+  - ### laissez-faire
 - ## Handlungsvollmacht Artvollmacht Einzelvollmacht
 - ## Prokurist
-- ## Unternehmensleitbilder
+- ## Unternehmensleitbild
+  - ist eine schriftliche Erklärung der Grundprinzipien von Unternehmen
+  - Nach Ihnen bedeutet Orientierung und Motivation für Mitarbeiter
+  - Nach Außen wurde vermittelt was Unternehmen leitet.
 - ## Ökonomisch und Nicht Ziel
 - ## Kennzahlen
 - ## Kostenberechnen
