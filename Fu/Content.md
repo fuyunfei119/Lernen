@@ -259,10 +259,10 @@
     - umfasst alle qualitätsbezogenen Leit- und Handlungsgrundsätze und bildet den Ramenbedingungen für alle
       Qualitätsmanagementaktivaitäten.
 - ## Teambuiling Prozess
-  - Forming (Kontakt)
-  - Storming (Konflikt)
-  - Norming (Kontrakt)
-  - Performing (Kooperation)
+  - Forming (Kennenlernen)
+  - Storming (Ziel definieren und Rollen verteilen)
+  - Norming (Struktur bilden)
+  - Performing (Hochleistungsphase, Jeder weiß welche Aufgabe er hat.)
   - Adjourning (Auflösungsphase)
 - ## Schritten
   - Ist Analyse => Soll-Konzept => Schulung der Mitarbeiter => QM-Handbuch verfassen => Interne Audits => Zertifizierung
@@ -1000,6 +1000,8 @@
     - Außer Standard Produkt noch zusäztlichen Verkauf an Kunden durch ausnutzen der Kundenbeziehung.
   - ### Up-Selling
     - Statt normalen Produkt das Produkt mit teueren Preis.
+  - ### Pre-Sales-Angebote
+    - das vor Vertragabschluss angeboten werden, meist kostenlos
   - ### Direkt Betrieb
     - Verkauft der Hersteller seinem Produkt direkt an Kunden
   - ### Indirekt Betrieb
@@ -1132,13 +1134,50 @@
   - Vertragslaufzeit
   - Datensicherung
   - Vorgehen bei Change Request
-- ## Handlungsvollmacht Artvollmacht Einzelvollmacht
-- ## Prokurist
+- ## Prokurist und Handlungsvollmacht
+  - ### Prokura (ppa)
+  - Prokura ist vertreter von Geschäftsführe
+  - Muss in Handelsregister eingetragen werden
+  - Fast alle Geschäfts- und Rechtshandlungen
+  - ### Handlungsvollmacht (i.V / i.A)
+  - Kann ohne Willenerklärung an Mitarbeiter geben
+  -	Gesamtvollmacht (i.V/i.A)
+  -	Alle gewöhnlichen Geschäfts- und Rechtshandlungen
+  -	Artvollmacht (i.V/i.A)
+  -	Bestimmte Art von wiederkehrenden Geschäften
+  -	Einzelvollmacht (i.A.)
+  -	Einzelnes Rechtsgeschäft
+- ## Lieferungsbedingungen
+  - ### Ab Werk
+  - Der käufer trägt Risiken und Versandkosten. Die Ware direkt vom Hersteller versendet
+  - ### Frei Haus
+  - Der Verkäufer trägt Risiken und Versandkosten. Die Ware bis vor Haustür versendet
+  - ### Frachtfrei
+  - Der Verkäufer trägt Risiken und Versandkosten. Die Ware bis zum Bestimmungsort versendet
 - ## Unternehmensleitbild
   - ist eine schriftliche Erklärung der Grundprinzipien von Unternehmen
   - Nach Ihnen bedeutet Orientierung und Motivation für Mitarbeiter
   - Nach Außen wurde vermittelt was Unternehmen leitet.
+- ## Grundfunktion von Betrieb
+  - Beschaffung
+  - Produktion
+  - Vertrieb
+  - Finanzierung
 - ## Ökonomisch und Nicht Ziel
+  - ### Ökonomisch
+  - Erhöhung des Marktanteils
+  - Expansion
+  - Gewinnmaximierung
+  - Kostenreduzierung
+  - ### Nicht Ökonomisch
+  - Mitarbeiterzufriedenheit
+  - sichere Arbeitsplätze
+  - geringe Energieverbrauch
+- ## Sektoren
+  - ### 1. primäre => Rohstoffe (Bergbau, Landwirtschaft)
+  - ### 2. sekundäre => Industrie
+  - ### 3. tertiäre => Dienstleistung
+  - ### 4. => IT-Bereich
 - ## Kennzahlen
 - ## Kostenberechnen
 - ## Kredit und Leasing Kosten
@@ -1149,10 +1188,16 @@
 - ## Bestandsentwicklung
 - ## eEPK
 - ## Recht- und Geschäftsfähigkeit
+  - ### Rechtsformen
+  - ![alt text](W2.png)
 - ## Anfrage Angebot Anpreisung
 - ## AGB
 - ## Eigentumsvorbehalt
 - ## Kaufvertragspflichten und Störung
+  - ### Störung
+  - Nicht rechtzeitige Lieferung
+  - Schlechte Leistung
+  - Nicht rechtzeitige Zahlung
 - ## Art von Vertrag
   - ### Lizenzvertrag
     - Dabei Inhalber der Produkte auf anderem zum Teil oder Vollständig übertragen (Lizenz)
@@ -1166,6 +1211,14 @@
     - Mehr kosten als Einmal Bezahlung
   - ### Mietvertrag
     - Nur Nutzbar kein Gegenstand besitzen
+  - ### Dienstvertrag
+  - Zeitbestimmt
+  - kein konkretes Ergebnis erforderlich
+  - Arbeitsvertrag
+  - ### Werkvertrag
+  - Erfolgsbestimmt
+  - An Leistungserfolg verbinden
+  - Reparatur von einem Handwerker
 - ## Mängel, Mängelarten
 - ## Rechnung
   - ### Gesetztliche Inhalte
@@ -1204,6 +1257,19 @@
   - Untersuchungsverfahren
   - durch extern Auditor
 - ## Marketing
+  - Ist Aktivität von Unternehmen um Absatz zu fördern
+  - ### Marktforschung
+  - Ist Untersuchung von Markt, Wettbewerber und Zielgruppe, um Entscheidung im Markting zu treffen.
+  - ### Marketing-Mix ist Gesamtheit von Aktivität zur Erreichung Marketingziele.
+  - Preispolitik
+  - Distributionspolitik
+  - Kommunikationspolitik
+  - Produktpolitik
+  - ### Produktpolitische Maßnahmen
+  - Produktinnovation (neues Produkt)
+  - Produktdifferenzierung (Erweiterung eines Produkt)
+  - Produktdiversifikation (Erweiterung des Produktsortiment)
+  - Produktmodifizierung ()
 - ## CRM
   - ein strategische Software, dient zum Kundenverwaltung, Dabei wurde dokumentiert, was wann wo kunden gesagt oder gemacht. 
 - ## BI
