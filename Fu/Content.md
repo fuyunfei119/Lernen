@@ -56,6 +56,10 @@
   -	Personaleinsatz
   -	Führung
   -	Kontrolle
+- ## Ist-Soll Vergleich
+  - Das Zustand von Projekt mit Ziel vergleichen
+  - Zusätzlichen Leistung einbringen
+  - Fehlererkennen und Korriegieren
 - ## Gantt-Diagramm
   - ### Vorteile:
     - Übersichtliche Darstellung
@@ -105,6 +109,11 @@
     - Ein Sprint darf nicht unterbrechen.
     - Dauern 1 bis 4 Wochen
 - ## Abgabe Projekt
+  - ### Element Abnahmeprozess
+    - Verfahrensabgleich aus Pflichtenheft
+    - Vorbereitung von Checklisten zur Abnahme
+    - Bereitstellung der Test und Dokumentation
+    - Behandlung von Fehlern und Mängeln
   - ### Protokolle
     - Benutzerdokumentation
     - Programmdokumentation
@@ -175,7 +184,7 @@
     Europäisches Normungsinstitut
   - ### ISO
     International Organisation for Standardization  
-  - ### IEC
+  - ### IEC (ISO 27001)
     International Electrotechnical Commission
   
   Normen muss nicht durchgeführt werden. Es gibt kein Strafgeld.
@@ -299,6 +308,32 @@
     Die Information von Benutzer oder Beamten ausspähen
   - 
 - ## Maßnahmen gegen die Gefährdung
+- ## Normen / Standards der Informationssicherheit
+  - ### DIN ISO IEC 27001
+  - eine Norm für informationssicherheitsmanagementsystem (ISMS)
+  - Festlegung welche Bedingungen ein ISMS erfüllen muss
+  - ### BSI
+  - Grundkonzept aus Bundesamt für Sicherheit in der Informationstechnik
+  - Risiken zu erkennen und Maßnahmen zu ergreifen
+  - Sicherheit der IT-System zu erhöhen
+- ## Informationssicherheit
+  - ### Maßnahmen
+    - #### Organisatorische Maßnahmen
+      - IT-Sicherheitsbeauftragter im Betrieb
+      - Erstellung IT-Sicherheitsrichtlinien
+      - Abteilung Informationssicherheit einrichten
+      - Zugriffskontrollen
+    - #### Technische Maßnahmen
+      - Virenschutzsystem
+      - Firewall
+      - Anti-Spam
+      - Backups
+    - #### Infrastrukturelle Maßnahmen
+      - Bauliche Abschirmung des Rechenzentrum
+      - Brandschutzanlagen
+      - USV
+    - #### Personelle Maßnahmen
+      - Schulung Mitarbeiter
 - ## IT-Sicherheitsbeauftragten
   - ### Aufgaben
     - Risikomanagement
@@ -317,6 +352,54 @@
     - Verwendung sondern Zeichen
     - Unterscheidlichen Password
 - ## IT-Grundschutz(BSI)
+  - ### Bausteine
+  - ORP: 
+  - Organisation und Personal Steuerung und Regelung des Betriebs und Verwaltung
+  - Authentifizierung durch Eintippen des User Passwords
+  - Schulung des Personals
+  - Unterschiedliche Zugriffsrechte zwischen Mitarbeitern
+  - CON:
+  - Konzeption und Vorgehensweise
+  -	Löschen von Daten (Löschen fristen)
+  -	Datenschutzkonzept
+  -	Sichere Softwareentwicklung
+  - OPS:
+  - Betrieb
+  -	Rolle des Systemadministrotion
+  -	Schutz vor Schadenprogramm
+  -	Personen dritter Parteien
+  -	Archivierung von Daten
+  -	Personalausfall z.B im Notfall
+  - APP:
+  - Anwendung
+  -	Client / Server
+  -	Verzeichnisdienste
+  -	Netzbasierte Dienste
+  -	Sichere Konfiguration eines Mail Server
+  - SYS:
+  - IT-System
+  -	Mobile Lösung (Tablet, Smartphone)
+  -	Server
+  -	Desktop / Laptop
+  - IND:
+  - Industrielle-IT
+  -	Steuerungen
+  -	Sensoren / Aktoren
+  -	Maschinensteuerung und Programmierung
+  - NET:
+  - Netzwerk und Kommunikation
+  -	WLAN
+  -	Route, Switch, Firewall
+  - INF:
+  - Infrastruktur
+  -	Gebäude
+  -	Arbeitsblätter
+  -	Zutrittsbeschränkungen
+  - DER:
+  - Detektion und Reaktion
+  -	Notfallmanagement
+  -	Erkennung von Sicherheitsverfahren
+  -	Bereinigung von Verfahren
 - ## Vertraulichkeit Integrität Verfügbarkeit
   - ### Vertraulichkeit
     Die Daten darf nur von autorisierte Person zugreifen.
@@ -324,11 +407,15 @@
     Die Daten sollte korrekt und vollständig sind und nicht durch anderem verändert
   - ### Verfügbarkeit
     Die Daten sollte jeder zeit von autorisierte person zugreifen können und nicht durch technische Störung beeinträchtigt.
+- ## Security by Design und by Default
+  - ### Security by Design
+  - Direkt an den Entwicklungsprozess geplant und entwicklet
+  - Anaylisieren ob Risiko gibt
+  - ### Security by Default
+  - Als Standard Default integriet
 - ## IT-Sicherheitsgesetz
 - ## Mindmap
 - ## Verschlüsselung
-- ## Datensicherung
-- ## RAID
 - ## Strukturanalyse, Schutzbedarfsfeststellung, Modellierung
   - ### Ziel der Schutzbedarfsfeststellung
     - Wie viel Schutz braucht es?
@@ -340,6 +427,9 @@
     - Anwendungen
     - Räume
     - Dienstleistung
+    - Switch
+    - Speichersystem
+    - Telefon
 - ## Authentifizierung
 # IT-Systeme
 - ## Ticket System
@@ -449,8 +539,18 @@
   - Grafische Oberfläche
   - Bedienbar mit Mouse und Tastatur
   - Kann mit Internet verbinden 
+- ## Laptop
+  - ### Convertible
+  -  PC und Tablet Two in One, Tastatur können umschlagen
+  - ### Netbook
+  - Kleine Laptop und Display, meist nur für Surfen
+  - ### Tablet
+  - tragbare Computer,Leicht und mit Touchscreen
 - ## Analyse der marktgängigen IT-System
 - ## Open Source,GNU GPL,Public Domain
+  - ### Proprietäre Software
+    - Der Nutzer hat kein Zugriff auf Quelle Code.
+    - Nach Lizenze Kosten Entdecken
 - ## Parallele und Serielle
   - ### SATA (Serial ATA)
     Punkt zu Punkt Verbindung
@@ -591,16 +691,26 @@
   - ### Nachteile:
     - Mehr Lernzeit
     - Ergebnisausgabe in Text
+- ## Firewall
+  - ### Aufgaben
+    - Schutz vor DDos Angriff
+    - Überwachung Datenverkehr
+    - Erlauben von Paketweiterleitung
+    - Protokollierung aller Aktivitäten
+    - Verweigerung von Paketweiterleitung
 # Software
 - ## Programmierungssprach mindmap
   - Programmierparadigma (编程范式)
   - ### Das "Wie" steht im Vordergrund
     - Imperative Programmierung (命令式编程)
       - Prozedurale Programmierung (面向过程) => C
+        - Dabei wird Befehlen nacheinander gearbeitet. Anders als Funktionale Programmierung gibt Prozedurale Programmierung kein Ausgabewert zurück.
       - Objektorientierte Programmierung (面向对象) => Java C#
       - Strukturierte Programmierung (面向结构) => C++ Fortran
     - Deklarative Programmierung (声明式编程)
       - Funktionale Programmierung (函数式编程) => ECMAScript
+        - Dabei wird Gesamtcode in vielen kleinen Funktion verteilt. Jeder Funktion arbeiten allein.
+        - Eignet für einfache und modulare AUfgaben
       - Logische Programmierung (逻辑编程) => SQL
   - ### Das "Was" steht im Vordergrund
 - ## Art der Software
@@ -650,10 +760,17 @@
 - ## Variable und Konstanten
   - Variable ist Platzhalter, wo veränderbare Werte speichert.
   - Dadurch wird ein Speicherplatz erschließen
+- ## Schulungsarten
+  - ### Ohline-Seminar
+    - Über Internet
+  - ### Inhouse-Schulung
+    - Mehreren Teilnehmen
+  - ### Individual-Schulung
+    - An einem einzeln Person
 - ## Pseudo-Code
 - ## Algorithmus
 - ## HTML und XML
-- ## UML
+- ## UML (Unified Modelling Language)
 - ## use-case
 - ## IDE
 - ## Variablen, Datenstrukturen, Kontrollstrukturen, Funktionen, Klassen, Vererbung
@@ -676,13 +793,32 @@
 - ## Normalisierung
 - ## SQL
 # Netzwerk
+- ## 5G
+  - ### Vorteile:
+    - höhere Bandbreite
+    - höhere Datengeschwindigkeit
+    - Verbindung von mehreren Geräten mit Internet
 - ## OSI-Modell
+- ## TCP und UDP
+  - ### TCP
+  - zuverlässige Übertragung
+  - Verbindungsorientiert
+  - Segmentiert Pakete
+  - Nachsenden von verlorenen Paketen
+  - Datei-Übertragung
+  - ### UDP
+  - schnelle Übertragung
+  - Verbindungslos
+  - kein Nachsenden
+  - kein Segmentierte Pakete
+  - Video Streaming
 - ## WLAN
 - ## Verkabelung
 - ## Glasfaser
 - ## IP-Addressen
 - ## DHCP
 - ## IPv6
+- Besteht aus Herstellercode und von hersteller vergebenen laufenden Nummber
 - ## Kupferkabel
 - ## Fehlersuche
 - ## Netzwerkkomponenten (WLAN, LAN, Router, Switch, AP, Netzwerkprotokolle, Funktechniken)
@@ -710,6 +846,14 @@
          - durch weniger Anbieter ist Mangel an Innovation
          - Anbieter können untereinander verhandeln, eine illegale Preis geben
 - ## Käufer- Verkäufermärkte
+  - ### Verkäufermärkte
+  - Nachfrage mehr als Angebot
+  - höhere Preis
+  - Deutsche Bahn und Post
+  - ### käufermärkte
+  - Angebot mehr als Nachfrage
+  - Günstige Preis
+  - Milchindustrie in Deutschland
 - ## Nachfrage - Angebot
   ![alt text](Markt1.svg)
 
@@ -781,7 +925,17 @@
     - Den Wunsch von Kunden wecken
   - ### Action
     - Lass Kunden kaufen
-- ## 
+- ## Gute Körpersprache
+  - ### Leicht Füße auf Boden
+  - ### Kein Tänzeln
+  - ### Gewicht gleichmäßig verlagern
+- ## Touch-Turn-Talk
+  - ### Touch => erst mal mit Hand oder Hilfsmittel das PPT anzeigen
+  - ### Turn => Dann dreht Körper nach Zuhören
+  - ### Talk => dann präsentieren
+- ## Digramm
+  - ### Balkendiagramm => Rangfolgenvergleich
+  - ### Kreisdiagramm => Mengenvergleich
 - ## Monetäre und nicht monetäre Anreiz von Mitarbeiter
   - ### Monetäre
     - Bonus nach Projekt geben
@@ -820,7 +974,51 @@
     - Kontaktdaten des Untermehmens
     - Address
     - Angebotsfrist
+- ## Zielgruppen definition
+  - ### Kostensparung durch weniger Werbung
+  - ### gezielte Vermarktung möglich
+  - ### Produktentwicklung maßgeschneidert auf Zielgruppen möglich
+- ## Vier-Ohren-Modell
+  - Selbstoffenbarung (ich finde, Ich beobachte)
+  - Beziehung (Ich finde unsere)
+  - Sachverhalt (Sie wurden, Sie sind)
+  - Appell (wünsche, Wollen, Sollen)
 - ## Geldstöme
+- ## Effektives (Zielführend 效果)
+- ## Effizient (Ressourcenschonend 效率)
+- ## Lizenze
+  - ### Pay per User
+  - von einen Gruppen benutzen
+  - Maximal Anzahl von Nutzung
+  - Zahlung von Anzahl von Nutzung abhängig
+  - Vorteile:
+  - Hohe Flexbilität
+  - Kosteneffizenz
+  - ### Pay per license
+  - von einem Nutzer benutzen
+  - nicht übertragbar
+  - Zahlung pro Nutzer
+  - ### EULA (End-User-License-Agreement)
+  - ein Vertrag zwischen Entwickler einer Software und dem Benuzter der Anwendung
+  - ### OEM (Original Equipment Manufacturer)
+  - für ein Komplett-System (hardware)
+  - ### GNU (General Public License)
+  - Copyright-Richtline für Open-Source-Software
+  - ### GPL (General Public License)
+  - Copyright-Richtline für Open-Source-Software
+- ## Bedarfsanalyse
+  - ### Aspekte zu achten
+    - Anaylse Geschäftsprozess
+    - Datenschutz und Datensicherheit
+    - Usability
+    - Technische Anforderung
+    - Bedürfnisse des Nutzers
+    - Bedarf des Benutzers
+  - ### Methoden
+    - Befragung (Umfrage oder Interview, um Sachverhalt zu ermitteln)
+    - direkte Beobachtung (IST-Zustand)
+    - Aufgabenbeschreibung (User-Case-Diagramm)
+    - Indirekte Beobachtung
 - ## Aufbau Organisation und Geschäftsprozessen
   - ### Linienstellen (Instanzen)
   - Durchführung von Kernprozessen
@@ -880,8 +1078,30 @@
       - Fehlende Transparenz bei Entscheidungsprozess
 - ## Führungsstil
   - ### Atuoritär
+    - Entscheidung schnell treffen
+    - Zuständigkeit eindeutig
+    - Klare Anweisung
   - ### kooperativ
+    - Entlastung der Führungskraft
+    - Mitarbeiter Motivation
+    - Kreativität und Innovation
   - ### laissez-faire
+- ## ESG
+  - Bereichen wo man brücksichtigen muss um Umwelt zu schützen 
+  - ### E (Environment)
+  - ### S (Social)
+  - ### G (Governance)
+- ## SLA (Service-Level-Agreements)
+  - eine Rahmenvertrag bzw. eine Schnittestelle zwischen Auftraggeber und Dienstleister für wiederkehrende Dienstleistungen.
+  - ### Elemente
+  - Verfügbarkeit
+  - Kosten
+  - Reaktionszeit
+  - Wiederherstellungszeit
+  - Vertragsstrafen
+  - Vertragslaufzeit
+  - Datensicherung
+  - Vorgehen bei Change Request
 - ## Handlungsvollmacht Artvollmacht Einzelvollmacht
 - ## Prokurist
 - ## Unternehmensleitbild
@@ -904,8 +1124,55 @@
 - ## Eigentumsvorbehalt
 - ## Kaufvertragspflichten und Störung
 - ## Art von Vertrag
+  - ### Lizenzvertrag
+    - Dabei Inhalber der Produkte auf anderem zum Teil oder Vollständig übertragen (Lizenz)
+    - Zeitlich begrentzt
+    - Geregelt, in welchem Umfang und wo die Produkt genutzt werden dürfen
+  - ### Leasing
+    - Nutzbar und Nach bestimmte Zeit Kaufbar
+    - Hoch Anfagnsinvestition für Anschaffung
+    - Meist mit Lizenz
+    - Nach Ablauf der Lizenz darf nicht mehr Produkt nutzen
+    - Mehr kosten als Einmal Bezahlung
+  - ### Mietvertrag
+    - Nur Nutzbar kein Gegenstand besitzen
 - ## Mängel, Mängelarten
 - ## Rechnung
+  - ### Gesetztliche Inhalte
+  - Vollständige Anschrift von Firma
+  - Vollständige Anschrift von Kunden
+  - Rechnungsnummer
+  - Rechnungsdatum
+  - Lieferdatum
+  - Menge
+  - Rabatt
+  - Steuersatz
+  - Entgelt
+  - Sitz der Gesellschaft
+  - Registernummer
+  - VAT RegNo Nummber
+  - ### Nicht gesetzlichen Inhalte
+  - Logo
+  - Sachbearbeiter
+  - Kundennummer
+  - Datum des Auftrages
+  - Zahlungsbedingungen
+  - Bankverbindung
+- ## Zertifizierung
+  - ### Vorteile:
+  - Bei Unternehmen die Dinge Umsetzen
+  - bei Wettbewerbs mehr vorteil
+  - bei Partern mehr Vertrauenssteigerung
+  - Rechtliche Anforderung
+  - ### Organisatorische Tätigkeiten
+  - Audit durchführen
+  - Ziel definieren
+  - ### Technische Tätigkeiten
+  - Umsetzen der Zertifizierung
+  - Audierung
+  - ### Audit
+  - Untersuchungsverfahren
+  - durch extern Auditor
 - ## Marketing
 - ## CRM
   - ein strategische Software, dient zum Kundenverwaltung, Dabei wurde dokumentiert, was wann wo kunden gesagt oder gemacht. 
