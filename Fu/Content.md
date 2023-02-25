@@ -40,7 +40,7 @@
     - Mitarbeitereinsatz plan
     - Aufgaben verteilen
     - Budget Kontrollieren
-- ## Projektphasen
+- ## Projektphasen (DIN 69901)
   -	Projektauftrag / Definition
     - IST-Anaylse, Machbarkeitanalyse,Kostenschätzung
   -	Projektplanung 
@@ -60,6 +60,32 @@
   - Das Zustand von Projekt mit Ziel vergleichen
   - Zusätzlichen Leistung einbringen
   - Fehlererkennen und Korriegieren
+- ## Bedarfsanalyse
+  - ist eine Methode im Verkaufsgespräch, damit spezifischen Kundenbedürfnisse ermittelt werden. Ziel ist es, dem Kunden oder der Kundin genau das Angebot zu unterbreiten, das ihren Bedarf stillt.
+  - ### Aspekte zu achten
+    - Anaylse Geschäftsprozess
+    - Datenschutz und Datensicherheit
+    - Usability
+    - Technische Anforderung
+    - Bedürfnisse des Nutzers
+    - Bedarf des Benutzers
+  - ### Methoden
+    - Befragung (Umfrage oder Interview, um Sachverhalt zu ermitteln)
+    - direkte Beobachtung (IST-Zustand)
+    - Aufgabenbeschreibung (User-Case-Diagramm)
+    - Indirekte Beobachtung
+- ## Machbarkeitsanalyse
+  - ist die Überprüfung der technische / Writschaftliche Umsetzbarkeit von Projekten
+  -	Bewertung der Machbarkeit anhand von:
+    -	Organisatorische Umsetzung
+    -	Wirtschaftliche Umsetzung
+    -	Technische Machbarkeit
+    -	Ressourcen und Verfügbarkeit
+    -	Zeitliche Umsetzung
+    -	Rechtliche Umsetzung
+- ## Nutzwertanalyse
+  - ist eine Entscheidungshilfe zur Auswahl der besten Lösung bei mehreren Lösungen
+  - Alle Lösungen werden von Gewichtung mit Punkten bewertet.
 - ## Gantt-Diagramm
   - ### Vorteile:
     - Übersichtliche Darstellung
@@ -70,6 +96,7 @@
     - Mitarbeiter muss eingearbeitet werden
     - Komplex zu lesen
 - ## Netzplan
+- ## EPK (Event-driven Prozess kette)
 - ## Kritscher Pfad
 - ## Wasserfallmodell
   - ### Dokumentgetrieben (Wasserfall auch Dokumentgetrieben genannt.)
@@ -208,8 +235,18 @@
   - Grundlage für Zertifizierung
 - ## 9004
   - gibt die Empfehlungen zur Verbesserung der Leitung eines Qualitätsmanagementsystems
+- ## DIN 31051 13306
+  - ### Instandhaltung
+  - Begriff für alle Arbeitsschritte, die Funktionsfähigkeit von Maschinen und Anlagen gewährleisten sollen.
+    - Inspektion (Ist-Zustand beurteilen) => Messen Prüfen
+    - Wartung (Soll-Zustand bewahren) => Reinigen Schmieren
+    - Instandsetzung (Soll-Zustand wiederherstellen) => Austauschen
+    - Verbesserung (Ist-Zustand verbessern)
 - ## Zyklus (PDCA)
-  - Plan => Do => Check => Act
+  - Plan (Ist Zustand Analysieren und Zielzustand definieren)
+  - Do (Maßnahmen zum Erreichen des Zielzustand ergreifen)
+  - Check (Ergreifende Maßnahmen nachprüfung)
+  - Act (Zusammenfassen, Erfahrung sammeln)
 - ## Grundbaustein der Qualitätsmanagementsysteme
   - ![alt text](QM2.png)
 - ## Qualitätsplanung und Politik
@@ -221,6 +258,12 @@
     - Von Leitung der Unternehmen ausgedrückt, wie sollte
     - umfasst alle qualitätsbezogenen Leit- und Handlungsgrundsätze und bildet den Ramenbedingungen für alle
       Qualitätsmanagementaktivaitäten.
+- ## Teambuiling Prozess
+  - Forming (Kontakt)
+  - Storming (Konflikt)
+  - Norming (Kontrakt)
+  - Performing (Kooperation)
+  - Adjourning (Auflösungsphase)
 - ## Schritten
   - Ist Analyse => Soll-Konzept => Schulung der Mitarbeiter => QM-Handbuch verfassen => Interne Audits => Zertifizierung
 - ## TQM und EFQM
@@ -1006,19 +1049,6 @@
   - Copyright-Richtline für Open-Source-Software
   - ### GPL (General Public License)
   - Copyright-Richtline für Open-Source-Software
-- ## Bedarfsanalyse
-  - ### Aspekte zu achten
-    - Anaylse Geschäftsprozess
-    - Datenschutz und Datensicherheit
-    - Usability
-    - Technische Anforderung
-    - Bedürfnisse des Nutzers
-    - Bedarf des Benutzers
-  - ### Methoden
-    - Befragung (Umfrage oder Interview, um Sachverhalt zu ermitteln)
-    - direkte Beobachtung (IST-Zustand)
-    - Aufgabenbeschreibung (User-Case-Diagramm)
-    - Indirekte Beobachtung
 - ## Aufbau Organisation und Geschäftsprozessen
   - ### Linienstellen (Instanzen)
   - Durchführung von Kernprozessen
