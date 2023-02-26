@@ -1133,6 +1133,12 @@
   - Sachverhalt (Sie wurden, Sie sind)
   - Appell (wünsche, Wollen, Sollen)
 - ## Geldstöme
+  - bezieht sich auf Ein und Auszahlung von Geld innerhalb von Unternehmens.
+  - Operativer Cashflow
+  - Investitions-Cashflow
+  - Finanzierung-Cashflow
+  - Positive-Cashflow bedeutet mehr Einzahlung als Auszahlung.
+  - negative-cashflow ist dagegen.
 - ## Effektives (Zielführend 效果)
 - ## Effizient (Ressourcenschonend 效率)
 - ## Lizenze
@@ -1288,6 +1294,14 @@
   - ### Pflichtenheft (Antwort auf das Lastenheft)
   - Darstellung wie das Projekt umgesetzt werden soll
 - ## Kennzahlen
+  1.  Umsatz
+  2.  Gewinn
+  3.  Gewinnmarge
+  4.  Liquidität
+  5.  Rentabilität
+  6.  Marktkapitalisierung
+  7.  Mitarbeiterzufriendheit
+  8.  Kundenzufriedenheit
 - ## Wertschöpfungskette
   - 1.  Bedarfsplanung
   - 2.  Mengenplanung
@@ -1317,7 +1331,12 @@
 - ## Optimale Bestellmenge
   - Optimale Bestellmenge = Gesamtmenge / Bestellmenge pro Auftrag * Bestellkosten pro Auftrag
 - ## Bestandsentwicklung
+  - Änderung von Lagerbestand im laufe des Zeit
+  - Ein positives bedeutet genau Rohstoffen und Produkten
+  - Ein negatives bedeutet Problem wie Überstände, Verluste 
 - ## eEPK
+  - erweiterte event-driven prozesskette
+  - meist auf Digital Workspace dargestellt.
 - ## Recht- und Geschäftsfähigkeit
   - ### Rechtsformen
   - ![alt text](W2.png)
@@ -1354,8 +1373,18 @@
   - Allgemeine Geschäftsbedingungen (AGB)
   - vereinfachen Vertragsgestaltung
 - ## Eigentumsvorbehalt
-- ## Kaufvertragspflichten und Störung
-  - ### Störung
+  - Eigentumsvorbehalt ist Eigentum einer Sache.
+  - wird erst nach vollständiger Zahlung des Kaufpreis auf Käufer übergeben.
+  - Ist für Sicherung des Geschäfts
+- ## Bestellpunktverfahren und Bestellrythmusverfahren
+- ## Kaufvertragspflichten
+  - ### Kaufvertragspflichten von Verkäufer
+  - pünktlichen mangelfreie Übergabe der Waren
+  - Übertragung des Eigentums
+  - ### Kaufvertragspflichten von Käufer
+  - Annahme der Ware
+  - Zahlung der Ware
+- ## Vertragstörung
   - Nicht rechtzeitige Lieferung
   - Schlechte Leistung
   - Nicht rechtzeitige Zahlung
