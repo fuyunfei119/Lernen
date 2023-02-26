@@ -450,6 +450,11 @@
     Die Daten sollte korrekt und vollständig sind und nicht durch anderem verändert
   - ### Verfügbarkeit
     Die Daten sollte jeder zeit von autorisierte person zugreifen können und nicht durch technische Störung beeinträchtigt.
+- ## Sicherheitsprozess
+  - 1.  Initiierung des Sicherheitsprozess
+  - 2.  Erstellung des Konzeption
+  - 3.  Umsetzung
+  - 4.  Kontinuierlichen Verbesserung
 - ## Security by Design und by Default
   - ### Security by Design
   - Direkt an den Entwicklungsprozess geplant und entwicklet
@@ -459,6 +464,14 @@
 - ## IT-Sicherheitsgesetz
 - ## Mindmap
 - ## Verschlüsselung
+  - Inhalt von Programm darf nur unter Verwendung Schlüssel einlesen
+  - ### Symmetrische Verschlüsselung
+  - Sender und Empfänger benutzen selben Schlüssel
+  - Sicher, Sobald die Schlüssel beideseitg bekannt ist.
+  - ### Asymmetrische Verschlüsselung
+  - eine öffentlichen und privaten Schlüssel
+  - öffentlichen Schlüssel ist frei verfügbar, privaten nicht
+  - Verschlüsselung nur mit öffentlichen Schlüssel, EntSchlüssel nur mit privaten
 - ## Strukturanalyse, Schutzbedarfsfeststellung, Modellierung
   - ### Ziel der Schutzbedarfsfeststellung
     - Wie viel Schutz braucht es?
@@ -574,6 +587,16 @@
 - ## USV
   - ### Ununterbrechungsstromversorgung
     Schützt vor potenziellen unerwartete Ausfall von Strom. Dadurch bleibt Rechnerzentrum am Laufen, nicht sofort ausschalten. USV wird die Stromversorgung von allen Geräten ausgleichen. So hat man noch Zeit um Daten zu retten.
+  - ### Typen
+  - VFI
+  - Schütz vor Folgen eines Stromausfalls
+  - Schütz vor Ober- und Unterspannung
+  -	Schütz vor Frequenzschwankungen
+  - VI
+  - Schütz vor Folgen eines Stromausfalls
+  - Schütz vor Ober- und Unterspannung
+  - VFD
+  - Schütz vor Folgen eines Stromausfalls, jedoch mit Verzögerung von bis zu 10 ms
 - ## UEFI
   - Unified Extensible Firmware Interface
   - ist ein Schnittestelle zwischen Mainboard und Betriebssystem
@@ -634,6 +657,14 @@
   - ![alt text](IT-System1.png)
   - ![alt text](IT-System2.png)
   - ![alt text](IT-System3.png)
+  - ### Reihenschaltung
+  - I = I1 = I2
+  - U = U1 + U2
+  - R = R1 + R2
+  - ### Rarallelschaltung
+  - I = I1 + I2
+  - U = U1 = U2
+  - R = 1 / (1/R1 + 1/R2 + 1/R3)
 - ## ECC
   - Error Correcting Code von DDR4
   - Wird die 1-Bit-Fehler selber korrigieren und 2-Bit-Fehler erkennen
@@ -782,6 +813,13 @@
   - ### Maßnahmen Sehvermögen
   - ### Maßnahmen Hörvermögen
   - ### Maßnahmen motorische Fähigkeiten
+- ## Softwarelebenszyklus
+  - 1. Anforderungsanalyse
+  - 2. Planung
+  - 3. Umsetzung
+  - 4. Test
+  - 5. Veröffentlichung (Rollout)
+  - 6. Instandhaltung
 - ## Complier und Skriptssprachen
   - ### Compliersprach
     - #### Vorteile:
@@ -1178,6 +1216,11 @@
   - ### 2. sekundäre => Industrie
   - ### 3. tertiäre => Dienstleistung
   - ### 4. => IT-Bereich
+- ## Lastenheft und Pflichtenheft
+  - ### Lastenheft (Standpunkt des Kunden)
+  - Kunde beschreibt seine Anforderungen an das Projekt
+  - ### Pflichtenheft (Antwort auf das Lastenheft)
+  - Darstellung wie das Projekt umgesetzt werden soll
 - ## Kennzahlen
 - ## Kostenberechnen
 - ## Kredit und Leasing Kosten
@@ -1190,6 +1233,35 @@
 - ## Recht- und Geschäftsfähigkeit
   - ### Rechtsformen
   - ![alt text](W2.png)
+  - #### Einzelunternehmen
+  - Kaufmann
+  - 1 Gründer
+  - 0 Kapital
+  - unbeschränkt
+  - #### Personengesellschaft
+  - Offene Handelsgesellschaft(OHG)
+  - Gesellschaft bürgerlichen Rechts (GbR)
+  - Kommanditgesellschaft (KG)
+  - Partnerschaftsgesellschaft (PartG)
+  - ist ein Betrieb eines Handelsgewerbs
+  - Natürliche Person
+  - 2 Gründer
+  - 0 Kapital
+  - persönlich und unbeschränkt
+  - #### Kapitalgesellschaft
+  - Juristische Person
+  - GmbH
+  - 1 Gründer
+  - 25000 Euro
+  - begrenzt auf Gesellschaftsvermögen
+  - AG
+  - 1 Gründer
+  - 50000 Euro
+  - begrenzt auf Gesellschaftsvermögen
+  - Europäische Gesellschaft
+  - 1 Gründer
+  - 120000 Euro
+  - begrenzt auf seinem eignene Gesellschaftsvermögen
 - ## Anfrage Angebot Anpreisung
 - ## AGB
 - ## Eigentumsvorbehalt
