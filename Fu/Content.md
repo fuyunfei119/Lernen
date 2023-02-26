@@ -295,7 +295,7 @@
 - ## Zugang und Zugriffskontrolle
   - Zugangskontrolle regelt, dass nur Person mit berechtigung auf Rechenzentrum zutreten darf. Ansonst wird Alarmanlagen auslöschen.
   - Zugriffskontrolle regelt, dass nur person mit berechtigung auf Daten zugreifen darf.
-- ## 7 datenschutzrechtlichen Grundsätze
+- ## 7 datenschutzrechtlichen Grundsätze oder Gewährleistungsziel von Anfoderungen DSGVO
   - Datenminimierung
     - Es sollte nur notwendige Daten erhoben werden.
   - Zweckbindung
@@ -326,11 +326,11 @@
     - Person widerruft die Einwilligung
     - Die Daten wurde unrechtmäßig erhoben
 - ## Datenschutzbeauftragter
+  - Person, wer durch Beratung und Überwachung einen effektiven Schutz personenbezogener Daten erstellen.
 - ## Einschätzung Verstoßen gegen DSGVO und DBSG
   - Name. Vorname, E-Mail, Telefon, Geburtsdatum, Familienstand
   Geburtsdatum und Familienstand sind nicht zwingend zu erheben
   - 
-- ## Gewährleistungsziel von Anfoderungen DSGVO
 # IT-Sicherheit
 - ## Identitätsdiebstahl und Schadeprogramm
   - ### Identitätsdiebstahl 
@@ -349,8 +349,20 @@
     Unaufgeforderte Senden von Nachricht und Emails
   - Spyware (间谍软件)
     Die Information von Benutzer oder Beamten ausspähen
-  - 
+  - ### DDos
+  - Dadurch wird Server maximal auslasten, sodass er nicht mehr erreichbar ist.
+  - ### Botnetze
+  - ### APT-Angriffe (Advanced Persistent Threats)
 - ## Maßnahmen gegen die Gefährdung
+  - ### Gegen Phishing
+  - Virenscanner installieren
+  - TAN oder Password auf E-Mail eingeben
+  - Firewall installieren
+  - ### Gegen Ransomware
+  - Netzwerk sofort Unterbrechen
+  - ### Gegen DDos
+  - Alle Netzwerkkomponenten sollen mit unterscheidlichen Password einrichten
+  - Bereitstellen einer alternativen Server zum Umleitung
 - ## Normen / Standards der Informationssicherheit
   - ### DIN ISO IEC 27001
   - eine Norm für informationssicherheitsmanagementsystem (ISMS)
@@ -395,6 +407,8 @@
     - Verwendung sondern Zeichen
     - Unterscheidlichen Password
 - ## IT-Grundschutz(BSI)
+  - ### ist eine Methodik zur Erhöhung der Informationssicherheit in Behörden und Unternehmen.
+  - Enthalt Aufbau eines Managementsystems für ISMS
   - ### Bausteine
   - ORP: 
   - Organisation und Personal Steuerung und Regelung des Betriebs und Verwaltung
@@ -443,6 +457,15 @@
   -	Notfallmanagement
   -	Erkennung von Sicherheitsverfahren
   -	Bereinigung von Verfahren
+- ## Sicherheitsleitlinie und Sicherheitskonzept
+- ### Sicherheitsleitlinie ist Grund Prinzipien der Informationssicherheit
+- ### Sicherheitskonzept beschreibt konkrete Maßnahmen, mit Leitlinie umgesetzt werden kann.
+  - Reihenfolge:
+  - Analyse des IT-Zustands
+  - Auswahl der Sicherheitsanforderung
+  - Realisierung der Maßnahmen
+  - Schutzbedarfsfeststellung
+  - Kontinuierliche Verbesserung
 - ## Vertraulichkeit Integrität Verfügbarkeit
   - ### Vertraulichkeit
     Die Daten darf nur von autorisierte Person zugreifen.
@@ -462,7 +485,15 @@
   - ### Security by Default
   - Als Standard Default integriet
 - ## IT-Sicherheitsgesetz
+  - Zur Erhöhung der Sicherheit informationstechnischer System
+  - um IT-System und digitalen Infrastrukturen in Deutschland zu sichersten weltweit zu machen.
+- ## Sektor der Kritischen Infrastruktur
+  - Transport und Verkehr
+  - Finanz und Versicherungswesen
+  - Informationstechnik und Wasser
+  - Energie
 - ## Mindmap
+- ![alt text](IS1.PNG)
 - ## Verschlüsselung
   - Inhalt von Programm darf nur unter Verwendung Schlüssel einlesen
   - ### Symmetrische Verschlüsselung
@@ -472,6 +503,9 @@
   - eine öffentlichen und privaten Schlüssel
   - öffentlichen Schlüssel ist frei verfügbar, privaten nicht
   - Verschlüsselung nur mit öffentlichen Schlüssel, EntSchlüssel nur mit privaten
+  - ### OpenPGP
+  - sowohl Symmetrische als auch Asymmetrische
+  - PGP Verfahren
 - ## Strukturanalyse, Schutzbedarfsfeststellung, Modellierung
   - ### Ziel der Schutzbedarfsfeststellung
     - Wie viel Schutz braucht es?
@@ -491,6 +525,7 @@
 - ## Ticket System
   - ### First-Level-System
   - ### Second-Level-System
+  - ### Third-Level-System
 - ## Zentralen und Dezentralen IT-Infrastruktur
   - ### Vorteile von Zentralen
     - Anschaffungsrabatte
@@ -618,6 +653,15 @@
     - Der Nutzer hat kein Zugriff auf Quelle Code.
     - Nach Lizenze Kosten Entdecken
 - ## Parallele und Serielle
+  - ### Parallele Datenübertragung
+  - Daten werden in Bits auf verschiedenen Leitung getrennt.
+  - Bits werden gleichzeitig parallel übertragen
+  - meist 8 Leitungen
+  - hat Fehleranfälligkeit, je länger die Leitung ist.
+  - ### Serielle Datenübertragung
+  - Nur auf einen Leitung gesendet
+  - Fehleranfälligkeit ist geringer als Parallele
+  - 
   - ### SATA (Serial ATA)
     Punkt zu Punkt Verbindung
     Jedes Geräte über separate Leitung angeschlossen
@@ -631,6 +675,7 @@
   - ### SSD (Solid State Drive)
     - Flash-Speicherchips
     - schneller und Zuverlässig
+    - Je großer SSD ist, desto höher ist die Haltbarkeit
   - ### Vorteile von SSD
     - Weniger Geräuschlos
     - schnell
@@ -680,8 +725,19 @@
   - ### USB 2 => Mouse und Tastatur
   - ### USB 3 => Drucker und High End SSD
 - ## Schaltplanung
-- ## Dateiformaten 
+- ## Dateiformaten
+  - Docx
+  - TIFF
+  - CSV
+  - ODT (Open-Office-Text)
+  - PNG ()
+  - MP4 ()
+  - JPG () 
+  - ODP (Open-Office-präsentation)
 - ## Bilddaten berechnen
+  - cm => Inch
+  - Inch * Pixel
+  - fläche * Farbtiefe => Bit
 - ## Kodierung
 - ## Cloud computing
   - ### Vorteile: 
@@ -700,6 +756,17 @@
     - mehr Datensichrung
   - ### Hybrid Cloud
     - eine Kombination von Public und private Cloud
+- ## DIN VDE 100-410
+  - Norm für elektrischer Niederspannungsanlagen.
+  - Schutzmaßnahmen gegen elektrischer Schlag.
+  - ### Schutzmaßnahmen
+  - Basicschutz (Direkte Berühren zu verhindern)
+  - Fehlerschutz (Abschlaten Spannung)
+  - Zusatzschutz (Fehlerstrom-Schutzschaltern)
+  - ### Schutz Klassen
+  - 1.  PC mit Monitor, Drucker
+  - 2.  Schreibtischlampe
+  - 3.  Powerbank
 - ## Hosting
   - ### Cloud-Hosting
     - Ein Cluster (mehreren Server)
@@ -866,7 +933,6 @@
     - Breakpunkt setzen
     - Zeilen für Zeilen ausführen
     - Werte von Varibale auslesen im Laufen des Programm
-- ## Softwarelebenszyklus
 - ## Programmablaufplan
 - ## Struktogramm
 - ## Datenbanken
@@ -1222,12 +1288,34 @@
   - ### Pflichtenheft (Antwort auf das Lastenheft)
   - Darstellung wie das Projekt umgesetzt werden soll
 - ## Kennzahlen
-- ## Kostenberechnen
-- ## Kredit und Leasing Kosten
 - ## Wertschöpfungskette
+  - 1.  Bedarfsplanung
+  - 2.  Mengenplanung
+  - 3.  Zeitplanung
+  - 4.  Lieferantenauswahl
+  - 5.  Bestellung
+  - 6.  Bestellverfolgung
+  - 7.  Wareneingang
+  - 8.  Lagerung
 - ## Kern und Unterstützungsprozessen
+  - ### Kern 
+  - Wertschöpfung
+  - Zentral und Hauptleistung
+  - Beschaffungsprozess
+  - Herstellung des Produkt
+  - Auftragsabwicklung
+  - ### Unterstützung
+  - Nicht Wertschöpfung
+  - Personalwesen
+  - Buchhaltung
+  - Lagerhaltung
 - ## ABC-Analyse
+  - A-Güter => Hoher Wert, Geringe Menge
+  - B-Güter => mittlerer Wert, mittlerer Menge
+  - C-güter => geringer Wert, Große Menge
+  - Markting / Vertrieb / Lagerhaltung
 - ## Optimale Bestellmenge
+  - Optimale Bestellmenge = Gesamtmenge / Bestellmenge pro Auftrag * Bestellkosten pro Auftrag
 - ## Bestandsentwicklung
 - ## eEPK
 - ## Recht- und Geschäftsfähigkeit
@@ -1262,8 +1350,9 @@
   - 1 Gründer
   - 120000 Euro
   - begrenzt auf seinem eignene Gesellschaftsvermögen
-- ## Anfrage Angebot Anpreisung
 - ## AGB
+  - Allgemeine Geschäftsbedingungen (AGB)
+  - vereinfachen Vertragsgestaltung
 - ## Eigentumsvorbehalt
 - ## Kaufvertragspflichten und Störung
   - ### Störung
